@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      button {
+        margin-top: 10px;
+        padding: 6px 12px;
+        cursor: pointer;
+      }
+
+      p {
+        font-size: 32px;
+        margin-top: 10px;
+        font-style: italic;
+      }
+    </style>
+</head>
+<body>
+    <!-- Even/odd checker -->
+     <p>Even and Odd Numbers</p>
+     <input type="number" name="number" id="numberinput" placeholder="Enter a number">
+     <button onclick="checkNumber()" id="checkbutton">check Number</button>
+     <p id="result"></p>
+
+
+     <!-- Voting eligibility checker -->
+     <p>Voting Eligibility Checker</p>
+     <input type="number" name="age" id="ageinput" placeholder="Enter your age">  
+     <input type="checkbox" name="citizen" id="citizencheckbox">
+     <label for="citizencheckbox">Are you a citizen?</label> <br><br>
+     <button id="checkeligibilitybutton">Check Eligibility</button>
+     <p id="eligibilityresult"></p>
+
+
+
+    <script src="/practical_class/index.js"></script>
+</body>
+</html>

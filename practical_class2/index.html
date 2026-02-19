@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/practical_class2/style.css">
+    </head>
+    <body>
+        <div>
+            <form id="myloginform">
+                <label for="username">Username:</label>
+                <input type="text" id="username" class="myinputs" name="username"
+                    placeholder="Enter username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="myinputs" name="password"
+                    placeholder="Enter password" required>
+
+                <button type="submit" id="formbtn">Login</button>
+
+                <p id="message"></p>
+            </form>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- TO-DO LIST -->
+        <div>
+            <h2>To-Do List</h2>
+            <input type="text" id="taskinput" placeholder="Enter a task">
+            <button id="addtaskbutton">Add Task</button>
+            <ul id="tasklist"></ul>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- REGISTRATION FORM -->
+        <div>
+            <h2>Registration Form</h2>
+            <form id="myregistrationform">
+
+                <input type="text" id="regusername" class="myinputs"
+                    name="regusername" placeholder="Enter username" required>
+
+                <input type="email" id="regemail" class="myinputs"
+                    name="regemail"
+                    placeholder="Enter email" required>
+
+                <input type="password" id="regpassword" class="myinputs"
+                    name="regpassword" placeholder="Enter password" required>
+
+                <button type="submit" id="registerbtn">Register</button>
+            </form>
+
+            <p id="registermessage"></p>
+        </div>
+
+        <script src="/practical_class2/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.myinputs{
+    display:block;
+    margin:10px 0;
+    padding: 8px;
+    width: 250px;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+.success{
+    border: 2px solid green;
+}
+
+#registermessage{
+    font-weight: bold;
+}
+
+div{
+    border-bottom: 1px solid grey;
+}

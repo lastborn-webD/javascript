@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/practicalassessment_class/style.css">
+    </head>
+    <body>
+
+        <!-- REGISTRATION FORM -->
+        <div>
+            <h2>Registration Form</h2>
+            <form id="myregistrationform">
+
+                <input type="text" id="regusername" class="myinputs"
+                    name="regusername" placeholder="Enter username" required>
+
+                <input type="email" id="regemail" class="myinputs"
+                    name="regemail"
+                    placeholder="Enter email" required>
+
+                <input type="password" id="regpassword" class="myinputs"
+                    name="regpassword" placeholder="Enter password" required>
+
+                <input type="password" id="confirmregpassword" class="myinputs"
+                    name="confirmregpassword" placeholder="Confirm password"
+                    required>
+
+                <small id="passwordError" class="error-text">
+                    Passwords do not match
+                </small>
+                
+                <button type="submit" id="registerbtn">Register</button>
+            </form>
+
+            <p id="registermessage"></p>
+        </div>
+
+        <script src="/practicalassessment_class/index.js"></script>
+    </body>
+</html>
